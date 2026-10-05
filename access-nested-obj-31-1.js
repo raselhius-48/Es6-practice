@@ -1,7 +1,6 @@
-//    data access
 
-const data = [{ id: 1, name: 'abdul', address: 'kocho khet' }];
-console.log(data[0].address)
+// access data
 
+const student = [{ id: 1, name: 'Rasel', address: 'khilkhat', }]
 
-const  
+console.log(student[0].address)
