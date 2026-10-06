@@ -18,8 +18,28 @@ const product = {
 }
 // console.log(product.data);
 // console.log(product.data[1]);
-console.log(product.data[1].price);
+// console.log(product.data[1].price);
 
+
+// type:-3  object in nested array access system 
+
+const user = {
+    id: 5001,
+    name: 'soriful raj',
+    address: {
+        street: {
+            first: '54/1 uttor side',
+            second: 'poribag er goli',
+            thitd: 'no dorai'
+        },
+        city: 'dhaka',
+    }
+}
+// console.log(user)
+
+// console.log(user.address)
+// console.log(user.address.street)
+console.log(user.address.street.second)
 
 
 
