@@ -75,6 +75,13 @@ const user = {
 // const fiveBonus = numbers.map(num => num + 5)
 // console.log(fiveBonus)
 
+// type 4
+
+// const friends = ['tom', 'john', 'mivheal', 'oliver'];
+// const lengths = friends.map(friend => friend.length)
+// console.log(lengths)
+
+
 const friends = ['tom', 'john', 'mivheal', 'oliver'];
-const lengths = friends.map(friend => friend.length)
-console.log(lengths)
+const fristLetter = friends.map(fistle => fistle[0])
+console.log(fristLetter)
