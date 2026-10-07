@@ -44,24 +44,31 @@ const user = {
 
 //  map discouse 
 
-// type 1
+// // type 1
 // const numbers = [4, 5, 2, 8, 10];
 // const doubled = [];
 // for (const num of numbers) {
 //     const double = num * 2;
 //     doubled.push(double)
 // }
-// console.log(doubled)
+// // console.log(doubled)
 
 
-// type-2 
-const numbers = [4, 5, 2, 8, 10];
+// // type-2 
+// const numbers = [4, 5, 2, 8, 10];
 
-function doubleIt(num) {
-    console.log('num Now', num)
-    return num * 2;
-}
-const result = numbers.map(doubleIt)
+// function doubleIt(num) {
+//     console.log('num Now', num)
+//     return num * 2;
+// }
+// const result = numbers.map(doubleIt)
 
-console.log(result)
+// // console.log(result)
+
+
+// type 3 short function in work
+
+const numbers = [12, 10, 8, 15, 7];
+const doubled3 = numbers.map(num => num * 2)
+console.log(doubled3)
 
