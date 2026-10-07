@@ -70,5 +70,7 @@ const user = {
 
 const numbers = [12, 10, 8, 15, 7];
 const doubled3 = numbers.map(num => num * 2)
-console.log(doubled3)
+// console.log(doubled3)
 
+const fiveBonus = numbers.map(num => num + 5)
+console.log(fiveBonus)
