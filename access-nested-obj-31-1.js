@@ -42,7 +42,7 @@ const user = {
 // console.log(user.address.street.second)
 
 
-//  map discouse 
+//  map discouse
 
 // // type 1
 // const numbers = [4, 5, 2, 8, 10];
@@ -54,7 +54,7 @@ const user = {
 // // console.log(doubled)
 
 
-// // type-2 
+// // type-2
 // const numbers = [4, 5, 2, 8, 10];
 
 // function doubleIt(num) {
@@ -82,6 +82,10 @@ const user = {
 // console.log(lengths)
 
 
-const friends = ['tom', 'john', 'mivheal', 'oliver'];
-const fristLetter = friends.map(fistle => fistle[0])
-console.log(fristLetter)
+// const friends = ['tom', 'john', 'mivheal', 'oliver'];
+// const fristLetter = friends.map(fistle => fistle[0])
+// console.log(fristLetter)
+
+
+
+
