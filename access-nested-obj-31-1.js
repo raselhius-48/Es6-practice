@@ -66,11 +66,15 @@ const user = {
 // // console.log(result)
 
 
-// type 3 short function in work
+// // type 3 short function in work
 
-const numbers = [12, 10, 8, 15, 7];
-const doubled3 = numbers.map(num => num * 2)
-// console.log(doubled3)
+// const numbers = [12, 10, 8, 15, 7];
+// const doubled3 = numbers.map(num => num * 2)
+// // console.log(doubled3)
 
-const fiveBonus = numbers.map(num => num + 5)
-console.log(fiveBonus)
+// const fiveBonus = numbers.map(num => num + 5)
+// console.log(fiveBonus)
+
+const friends = ['tom', 'john', 'mivheal', 'oliver'];
+const lengths = friends.map(friend => friend.length)
+console.log(lengths)
