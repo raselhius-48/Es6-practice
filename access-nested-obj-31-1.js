@@ -6,7 +6,7 @@ const student = [{ id: 1, name: 'Rasel', address: 'khilkhat', }]
 // console.log(student[0].address)
 
 
-// type:-2 object in array accesss
+// type:-2 object in array or nested object access
 
 const product = {
     count: 5000,
@@ -39,8 +39,17 @@ const user = {
 
 // console.log(user.address)
 // console.log(user.address.street)
-console.log(user.address.street.second)
+// console.log(user.address.street.second)
 
 
+//  map discouse 
 
+const numbers = [4, 5, 2, 8, 10];
+const doubled = [];
+
+for (const num of numbers) {
+    const double = num * 2;
+    doubled.push(double)
+}
+console.log(doubled)
 
