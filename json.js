@@ -31,9 +31,11 @@ const shop = {
     isNew: false,
 }
 
+// Object from stringify
 console.log(shop)
 const shopJson = JSON.stringify(shop);
 console.log(shopJson)
 
+// stringify from object translate
 const parseJson = JSON.parse(shopJson)
 console.log(parseJson)
