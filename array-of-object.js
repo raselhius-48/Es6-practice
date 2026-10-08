@@ -6,5 +6,9 @@ const products = [
 ]
 
 // map
-const names = products.map(pro => pro.name)
-console.log(names)
+// const names = products.map(pro => pro.name)
+// console.log(names)
+
+// filter
+const filt = products.filter(fild => fild.price > 40000)
+console.log(filt)
