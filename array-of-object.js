@@ -9,6 +9,11 @@ const products = [
 // const names = products.map(pro => pro.name)
 // console.log(names)
 
-// filter
-const filt = products.filter(fild => fild.price > 40000)
-console.log(filt)
+
+// // filter
+// const filt = products.filter(fild => fild.price > 40000)
+// console.log(filt)
+
+// find
+const findf = products.find(fi => fi.id)
+console.log(findf)
