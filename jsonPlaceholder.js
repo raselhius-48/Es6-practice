@@ -3,16 +3,27 @@
 //     .then(json => console.log(json))
 
 
-// type 2
+// json type 2
 
 
-function displayuser() {
+function displayuser1() {
     fetch('https://jsonplaceholder.typicode.com/posts/1')
         .then(response => response.json())
-        .then(D => displayuser(D))
-
+        .then(D => displaypost(D))
 }
 
-function displayuser(data) {
+function displaypost(data) {
     console.log(data)
+}
+
+
+// json type 3 
+function displayuser2() {
+    fetch('https://jsonplaceholder.typicode.com/users')
+        .then(res => res.json())
+        .then(data => displayshowr(data))
+}
+
+function displayshowr(bc) {
+    console.log(bc)
 }
